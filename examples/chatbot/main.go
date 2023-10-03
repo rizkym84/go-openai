@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	client := openai.NewClient(os.Getenv("OPENAI_API_KEY"))
+	client := openai.NewClient(os.Getenv("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"))
 
 	req := openai.ChatCompletionRequest{
 		Model: openai.GPT3Dot5Turbo,
